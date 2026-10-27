@@ -1,0 +1,5 @@
+:root{--paper:#f3ecdf;--ink:#1f2633;--soft:#5b6473;--red:#d9472b;--blue:#2e5e9e}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Hiragino Sans","Noto Sans JP",sans-serif;line-height:1.8;
+background-image:linear-gradient(rgba(46,94,158,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(46,94,158,.08) 1px,transparent 1px);background-size:28px 28px}
+main{max-width:720px;margin:0 auto;padding:48px 20px 80px}h1{font-size:2rem;margin:0 0 .2em}h2{font-size:1.2rem;margin-top:2em;border-bottom:2px solid var(--ink)}
+a{color:var(--blue)}.lead{color:var(--soft)}img{width:120px;height:120px;border-radius:50%}footer{margin-top:3em;color:var(--soft);font-size:.9rem}
